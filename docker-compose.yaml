@@ -1,0 +1,10 @@
+services:
+  mysql: # Service name
+    image: mysql # Docker image to use
+    env_file: 
+      - .env # Path to the environment file
+    ports:
+      - "3306:3306" # Port mapping
+
+    
+                                     
